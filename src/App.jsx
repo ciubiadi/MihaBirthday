@@ -140,7 +140,7 @@ export default function App() {
                   <Calendar className="w-10 h-10 text-blue-600 flex-shrink-0" />
                   <div className="text-left">
                     <p className="font-bold text-gray-700 text-sm uppercase tracking-wide">When</p>
-                    <p className="text-2xl font-black text-gray-900">Friday, 21 February</p>
+                    <p className="text-2xl font-black text-gray-900">Saturday, 21 February</p>
                   </div>
                 </div>
 
