@@ -94,6 +94,37 @@ export default function App() {
                   🎉 YOU'RE INVITED! 🎉
                 </h1>
                 
+              {/* Funny Photo Placeholder */}
+                <div className="mb-6 transform hover:scale-105 transition-all duration-300">
+                  <div className="relative inline-block">
+                    <div className="w-100 h-100 mx-auto bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500 rounded-3xl shadow-2xl border-8 border-yellow-600 overflow-hidden relative">
+                      {/* Photo placeholder - Replace src with your actual photo */}
+                      <img 
+                        src="/placeholder-banana-police.jpg" 
+                        alt="Birthday person in banana police officer costume" 
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          // Fallback if image doesn't load - show fun placeholder
+                          e.target.style.display = 'none';
+                          e.target.nextElementSibling.style.display = 'flex';
+                        }}
+                      />
+                      {/* Fallback placeholder */}
+                      <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500" style={{display: 'none'}}>
+                        <div className="text-8xl mb-4">🍌</div>
+                        <div className="text-6xl mb-4">👮</div>
+                        <p className="text-lg font-bold text-yellow-900 px-4 text-center">
+                          Banana Police Officer<br/>on Duty!
+                        </p>
+                      </div>
+                    </div>
+                    {/* Fun badge */}
+                    <div className="absolute -bottom-4 -right-4 bg-red-500 text-white px-5 py-3 rounded-full font-bold text-base shadow-lg transform rotate-12">
+                      That's me! 😄
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="bg-gradient-to-r from-yellow-100 to-pink-100 rounded-2xl p-8 mb-6 transform rotate-1 shadow-lg">
                   <p className="text-3xl font-bold text-gray-800 mb-2">
                     It's Miha's Birthday Party!
@@ -109,7 +140,7 @@ export default function App() {
                   <Calendar className="w-10 h-10 text-blue-600 flex-shrink-0" />
                   <div className="text-left">
                     <p className="font-bold text-gray-700 text-sm uppercase tracking-wide">When</p>
-                    <p className="text-2xl font-black text-gray-900">Saturday, 21 February</p>
+                    <p className="text-2xl font-black text-gray-900">Friday, 21 February</p>
                   </div>
                 </div>
 
