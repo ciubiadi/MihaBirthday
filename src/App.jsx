@@ -95,7 +95,7 @@ export default function App() {
                 </h1>
                 
               {/* Funny Photo Placeholder */}
-                <div className="mb-6 transform hover:scale-105 transition-all duration-300">
+                <div className="mb-6 transform hover:scale-105 transition-all duration-300 relative z-10 hover:z-20">
                   <div className="relative inline-block">
                     <div className="w-100 h-100 mx-auto bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500 rounded-3xl shadow-2xl border-8 border-yellow-600 overflow-hidden relative">
                       {/* Photo placeholder - Replace src with your actual photo */}
@@ -125,9 +125,9 @@ export default function App() {
                   </div>
                 </div>
                 
-                <div className="bg-gradient-to-r from-yellow-100 to-pink-100 rounded-2xl p-8 mb-6 transform rotate-1 shadow-lg">
+                <div className="bg-gradient-to-r from-yellow-100 to-pink-100 rounded-2xl p-8 mb-6 transform rotate-1 shadow-lg relative z-0">
                   <p className="text-3xl font-bold text-gray-800 mb-2">
-                    It's Miha's Birthday Party!
+                    It's My Birthday Party!!
                   </p>
                   <p className="text-xl text-gray-700 italic">
                     (And you're the lucky one who gets to celebrate with me!)
