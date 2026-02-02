@@ -96,7 +96,7 @@ export default function App() {
                 
                 <div className="bg-gradient-to-r from-yellow-100 to-pink-100 rounded-2xl p-8 mb-6 transform rotate-1 shadow-lg">
                   <p className="text-3xl font-bold text-gray-800 mb-2">
-                    It's My Birthday Party!
+                    It's Miha's Birthday Party!
                   </p>
                   <p className="text-xl text-gray-700 italic">
                     (And you're the lucky one who gets to celebrate with me!)
@@ -136,7 +136,6 @@ export default function App() {
                 <ul className="text-left space-y-2 text-lg">
                   <li>✅ Bring your best party mood</li>
                   <li>✅ Funny stories are mandatory</li>
-                  <li>✅ Dancing shoes optional (but recommended)</li>
                   <li>❌ Being boring is strictly forbidden</li>
                 </ul>
               </div>
